@@ -1,0 +1,17 @@
+{
+  "name": "minicli/minicache",
+  "type": "library",
+  "description": "A simple json file cache for minicli",
+  "license": "MIT",
+  "homepage": "https://github.com/minicli/minicli",
+  "keywords": ["micro","cache","json"],
+  "autoload": {
+    "psr-4": {
+      "Minicli\\Minicache\\": "src/"
+    }
+  },
+  "require": {
+    "minicli/minicli": "^1.0",
+    "ext-json": "*"
+  }
+}
